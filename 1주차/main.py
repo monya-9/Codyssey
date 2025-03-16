@@ -1,4 +1,4 @@
-# Codyssey 1주차차
+# Codyssey 1주차 - 문제1 미션 컴퓨터를 복구하고 사고 원인을 파악해 보자
 # 로그 분석 프로그램
 
 print('Hello Mars')
