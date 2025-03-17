@@ -21,11 +21,11 @@ def read_log_file(filename):
 
 log_lines = read_log_file(log_file)
 
+log_lines.reverse()
+
 print('로그 파일 내용:')
 for line in log_lines:
     print(line, end='')
-
-log_lines.reverse()
 
 
 def analyze_logs(log_lines):
@@ -50,7 +50,6 @@ def analyze_logs(log_lines):
     return error_messages
 
 error_logs = analyze_logs(log_lines)
-
 
 def save_error_logs(error_logs, output_file='error_logs.txt'):
     try:
