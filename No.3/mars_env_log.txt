@@ -1,0 +1,1 @@
+2025-03-31 15:57:27.453480, {'mars_base_internal_temperature': 23.0, 'mars_base_external_temperature': 12.0, 'mars_base_internal_humidity': 53.0, 'mars_base_external_illuminance': 637.0, 'mars_base_internal_co2': 0.0218, 'mars_base_internal_oxygen': 7.0}
