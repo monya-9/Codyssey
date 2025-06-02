@@ -1,4 +1,4 @@
-# Codyssey No.8 - 문제2 카이사르의 암호
+# Codyssey No.9 - 문제2 카이사르의 암호
 # 암호 해독
 
 def caesar_cipher_decode(target_text):
