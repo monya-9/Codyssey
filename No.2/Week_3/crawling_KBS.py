@@ -21,7 +21,6 @@ def get_kbs_headlines():
         
     soup = BeautifulSoup(response.text, 'html.parser')
     
-    # 사용자가 찾은 정확한 CSS 선택자(p.title)를 사용합니다.
     headline_tags = soup.select('p.title')
     
     headline_list = []
