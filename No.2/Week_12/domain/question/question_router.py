@@ -16,7 +16,7 @@ def question_list(db: Session = Depends(get_db)):
     _question_list = db.query(Question).order_by(Question.create_date.desc()).all()
     return _question_list
 
-# 질문 등록 (POST 메소드 사용)
+# 질문 등록 (POST 메소드 사용) 
 @router.post('/create')
 def question_create(_question_create: question_schema.QuestionCreate,
                     db: Session = Depends(get_db)):
