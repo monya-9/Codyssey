@@ -59,7 +59,7 @@ python -m uvicorn main:app --reload
 ```
 
 ### 4. API 문서 및 테스트
-→ http://127.0.0.1:8000/docs (Swagger UI)  
+→ http://127.0.0.1:8000/docs (FastAPI UI)  
 → http://127.0.0.1:8000/redoc (ReDoc)
 
 ## 📡 API 명세
